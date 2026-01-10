@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Base styles and theme overrides */
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --color-primary: #3b82f6;
+    /* Example: custom blue-600 */
+}
+
+@layer base {
+    body {
+        font-family: var(--font-inter);
+        @apply bg-gray-50 text-gray-900;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+}
