@@ -2,7 +2,6 @@
 
 AI-powered skill-gap assessment platform built with React, TypeScript, Tailwind CSS, and MongoDB.
 
-## 🚀 Quick Start
 
 ### Backend Setup (MongoDB)
 
@@ -44,7 +43,7 @@ src/
     └── index.ts          # TypeScript types
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Backend Configuration
 
@@ -67,13 +66,13 @@ VITE_API_URL=http://localhost:3000/v1
 
 **Note:** The MongoDB connection string uses URL-encoded password (`%40` for `@`).
 
-## 🔐 Authentication
+##  Authentication
 
 Uses JWT tokens in localStorage:
 - `student_auth_token`
 - `admin_auth_token`
 
-## 📝 API Endpoints
+##  API Endpoints
 
 All endpoints expect responses in format:
 ```json
@@ -99,17 +98,11 @@ All endpoints expect responses in format:
 - ✅ API service layer with Axios
 - ✅ Protected routes
 
-**Pending:**
-- 🚧 Quiz interface (timer, questions, submit)
-- 🚧 Quiz results page
-- 🚧 Admin pages (students, courses, analytics)
-- 🚧 Student profile & report
-
-## 🛠️ Development
+##  Development
 
 The application now uses MongoDB as the database. The backend server must be running for the frontend to work properly.
 
-## 📦 Tech Stack
+##  Tech Stack
 
 **Frontend:**
 - React 19 • TypeScript • Vite • Tailwind CSS • React Router • Axios
@@ -117,7 +110,7 @@ The application now uses MongoDB as the database. The backend server must be run
 **Backend:**
 - Node.js • Express • TypeScript • MongoDB (Mongoose) • JWT • bcryptjs
 
-## 🗄️ Database
+## Database
 
 MongoDB Atlas cluster with the following collections:
 - `users` - User accounts (students and admins)
